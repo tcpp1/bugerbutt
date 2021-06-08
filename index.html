@@ -1,90 +1,162 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<meta charset="utf-8">
+	<title>BurgerButt</title>
+	<link rel="icon" type="image/x-icon" href="/Users/rhng42/Desktop/GitHub/BurgerButt/images/burgerbutt-logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="BurgerButt.Top.style.css">
+	<link rel="stylesheet" href="responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
+
 <body>
-  <header>
-    <div class="container">
-      <div class="header-left">
-        <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-      </div>
-      <span class="fa fa-bars menu-icon"></span>
-      <div class="header-right">
-        <a href="#">レッスン</a>
-        <a href="#">新規登録</a>
-        <a href="#" class="login">ログイン</a>
-      </div>
-    </div>
-  </header>
-  <div class="top-wrapper">
-    <div class="container">
-      <h1>LEARN TO CODE.<br>LEARN TO BE CREATIVE.</h1>
-      <p>Progateはオンラインプログラミング学習サービスです。<br>初心者にもやさしいスライドとレッスンで、ウェブサービスを作りながらプログラミングを学んでいきましょう。</p>
-      <div class="btn-wrapper">
-        <a href="#" class="btn signup">新規登録はこちら</a>
-        <p>or</p>
-        <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Facebookで登録</a>
-        <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Twitterで登録</a>
-      </div>
-    </div>
-  </div>
-  <div class="lesson-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>Learn Where to Get Started!</h2>
-      </div>
-      <div class="lessons">
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/html.png">
-            <p>HTML & CSS</p>
-          </div>
-          <p class="text-contents">ウェブページの作成に使用される言語です。HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-            <p>jQuery</p>
-          </div>
-          <p class="text-contents">素敵な動きを手軽に実装できるJavaScriptライブラリです。 アニメーション効果をつけたり、Ajax（エイジャックス）を使って外部ファイルを読み込んだりと色々なことができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/ruby.png">
-            <p>Ruby</p>
-          </div>
-          <p class="text-contents">オープンソースの動的なプログラミング言語で、 シンプルさと高い生産性を備えています。大きなWebアプリケーションから小さな日用ツールまで、さまざまなソフトウェアを作ることができます。</p>
-        </div>
-        <div class="lesson">
-          <div class="lesson-icon">
-            <img src="https://prog-8.com/images/html/advanced/php.png">
-            <p>PHP</p>
-          </div>
-          <p class="text-contents">HTMLだけではページの内容を変えることはできません。PHPはHTMLにプログラムを埋め込み、それを可能にします。</p>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
-  </div>
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
-  <footer>
-    <div class="container">
-      <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-      <p>Learn to Code, Learn to be Creative.</p>
-    </div>
-  </footer>
+<!--ここからコード記入-->
+<div class="header">
+	<div class="container">
+	<div class="header-left" id="topScroll">
+		<img src="/Users/rhng42/Desktop/GitHub/BurgerButt/images/burgerbutt-logo.png">
+		<h1 class="logotype">Burger Butt</h1>
+
+	</div>
+
+	<div class="header-right">
+		
+		<ul>
+			<li id="menu">Menu</li>
+			<li id="location">Location</li>
+		</ul>
+
+		<a class="mobile-icon"><i class="fas fa-bars"></i></a>
+
+	</div>
+	</div>
+</div>
+
+<div class="top-wrapper">
+	<div class="container">
+
+		<h1 class="top-wrap-logo">BurgerButt</h1>
+		<h1 class="show-up">
+			The<br>
+			Hottest<br>
+			Burgers<br>
+			Here.
+		</h1>
+		<p>since 1975</p>
+
+		<a id="menuPoint" href="/Users/rhng42/Desktop/GitHub/BurgerButt/BurgerButt.menu/BurgerButt.menu.html" class="btn order">
+			Order here!
+		</a>
+
+	</div>
+</div>
+
+
+<div class="policy-wrapper">
+	<div class="policy">
+
+		<img class="burgerTopPin  animate__animated BounceInAnime2 hide" src="/Users/rhng42/Desktop/GitHub/BurgerButt/images/BurgerTopPin.png">
+		<h2 class="wrap-title policy-title animate__animated BounceInAnime hide">We Serve you...</h2>
+
+		<div class="pol-wrap vegi slideInAnime">
+			<p class="poltext">
+			<span>A</span>ll of our leafy greens are carefully and thoroughly washed, blended and prepared using our custom processes. Then they are packaged using our specially-developed breathable bags and containers designed to maintain freshness. Each type of lettuce or custom salad mix receives its own packaging system adjusted for optimal freshness - all to ensure the most enjoyable experience for you.<br>
+
+			We meticulously adhere to follow FDA’s Food Safety Modernization Act requirements including Current Good Manufacturing Practices and principles of HACCP (Hazard Analysis and Critical Control Points).
+			</p>
+			<h2 class="pol-title">Fresh Greens</h2>
+
+		</div>
+	</div>
+
+	<div class="policy">	
+		<div class="pol-wrap meat slideInAnime">
+			<p class="poltext">
+			<span>T</span>he core range, like all JMC products, is 100% British in origin, and is sourced from carefully selected group of farmers, who share our commitment to the highest standards of animal welfare. For those who prefer the organic option, we have several organic products on offer.<br>
+
+			Along with the classics, the Juicy Meat Company range also holds some products with an international influence, with Indian and Cajun style recipes used - as well as some products which show off our long-held passion for dry-aged meat.<br>
+
+			Our head of development, Chris, offers his thought process behind each product below - keep checking as we add recipes to give you some suggestions!
+			</p>
+			<h2 class="pol-title">Juicy Patties</h2>
+		</div>
+	</div>
+
+	<div class="policy">
+		<div class="pol-wrap cheese slideInAnime">
+			<p class="poltext">
+			<span>A</span>merican cheese is processed cheese made from a blend of milk, milk fats and solids, with other fats and whey protein concentrate. At first, it was made from a mixture of cheeses, more often than not Colby and Cheddar. Since blended cheeses are no longer used, it cannot be legally called “cheese” and has to be labelled as “processed cheese”, “cheese product“, etc. Sometimes, instead of the word cheese, it is called "American slices" or "American singles". Under the U.S. Code of Federal Regulations, American cheese is a type of pasteurised processed cheese.<br>
+
+			American cheese though criticized for its high fat and sodium content is still used in regular cooking as it melts well and contains a good amount of calcium and protein.
+			</p>
+			<h2 class="pol-title">Rich Cheese</h2>
+		</div>
+	</div>
+
+	<div class="policy">
+		<div class="pol-wrap tomato slideInAnime">
+			<p class="poltext">
+			<span>I</span>n 1917, 15-year-old Ray Kroc lied about his age to join the Red Cross as an ambulance driver, but the war ended before he completed his training. He then worked as a piano player, a paper cup salesman and a Multimixer salesman. In 1954, he visited a restaurant in San Bernardino, California that had purchased several Multimixers. There he found a small but successful restaurant run by brothers Dick and Mac McDonald, and was stunned by the effectiveness of their operation. The McDonald’s brothers produced a limited menu, concentrating on just a few items – burgers, fries and beverages – which allowed them to focus on quality and quick service.
+
+			</p>
+			<h2 class="pol-title">Perfect Service</h2>
+		</div>
+	</div>
+
+
+<div class="pol-wrap-bottom"></div>
+
+</div>
+
+<div class="map-wrapper" id="mapPoint">
+	<div class="container">
+
+		<h2 class="wrap-title animate__animated BounceInAnime hide">
+			Location
+		</h2>
+
+		<div class="map-wrap">
+			<img class="map" src="/Users/rhng42/Desktop/GitHub/BurgerButt/images/Map.png">
+
+			<a target="_blank" href="https://www.google.com/maps/@36.4357805,-99.3869974,3a,75y,190.39h,89.48t/data=!3m6!1e1!3m4!1sc8MNgkGtQoJbEwL6QFzmWg!2e0!7i13312!8i6656">
+				<img class="map-point" src="/Users/rhng42/Desktop/GitHub/BurgerButt/images/Map.Point.png">
+			</a>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="footer">
+	<div class="container">
+		<div class="footer-wrap">
+			<img class="footer-logo" src="/Users/rhng42/Desktop/GitHub/BurgerButt/images/Burgerbutt-logo-white.png">
+			<h3 class="footer-logo">Burger Butt</h3>
+		</div>
+
+		<div class="footer-sns">
+			<h4>Go Follow Us</h4>
+			<ul>
+				<li><i class="fab fa-twitter"></i>  @burgerbutt_official</li>
+				<li><i class="fab fa-facebook-f"></i>   Burger Butt</li>
+				<li><i class="fab fa-instagram"></i>  @Burger_Butt</li>
+			</ul>
+
+			<div class="clear"></div>
+
+			<p>TM & © 2020 Burger King Corporation.
+				Used under license. All rights reserved.
+			</p>
+
+		</div>
+	</div>
+</div>
+  <script src="BurgerButt.Top.script.js"></script>
+
+
+
+
 </body>
 </html>
