@@ -1,0 +1,63 @@
+@media(max-width: 760px){
+
+.header-right li{
+	display: none;
+}
+
+.mobile-icon{
+	color: #c81914;
+	display: block;
+	font-size: 60px;
+}
+
+
+.top-wrapper{
+	background-position: center;
+}
+
+.top-wrapper h1{
+	text-align: left;
+	font-size: 60px;
+}
+
+
+
+.order{
+	font-size: 30px;
+}
+
+
+.menu{
+	width: 40%;
+}
+
+
+
+
+
+}
+
+@media(max-width: 450px){
+
+.menu{
+	width: 90%;
+	margin-right: 10px;
+}
+
+.footer-sns h4{
+	text-align: center;
+}
+
+}
+
+@media(max-width: 375px){
+
+.top-wrapper h1{
+	font-size: 70px;
+	text-align: center;
+}
+
+.mobile-icon{
+	font-size: 40px;
+}
+
