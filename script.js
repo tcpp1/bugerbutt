@@ -25,14 +25,6 @@ $('#location').click(function(){
 });
 
 
-$('.map').hover(
-	function(){
-		$('.map-point').fadeIn(500);
-	},
-	function(){
-		$('.map-point').fadeOut(500);
-});
-
 
 $(window).scroll(function(){
 	$('.slideInAnime').each(function(){
